@@ -40,7 +40,7 @@ fi
 
 # Apply provided config file if it exists
 if [ -f ../xbps-src.conf ] ; then
-    cat ../xbps-src.conf >> etc/conf
+    cat ../xbps-src.conf > etc/conf
 fi
 
 if [ -z "$@" ] ; then
